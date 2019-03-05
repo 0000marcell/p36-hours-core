@@ -1,10 +1,20 @@
+/*
+ * I should be able to set a chrometer and start it
+ */
 
-function start() {
-  let minute = 0;
-  setInterval(function() {
-    minute += 1;
-    console.log(minute);
-  }, 1000);
+let MIN = 6000;
+
+let chronometer = {
+  setTime(val) {
+    this.time = val * MIN;  
+  },
+  start() {
+    setInterval(function() {
+      this.time -= 1;
+      console.log(this.time);
+    }, 1000);
+  }
 }
 
-start();
+chronometer.setTime(25);
+chronometer.start(25);
