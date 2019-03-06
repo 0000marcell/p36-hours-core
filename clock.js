@@ -6,6 +6,7 @@ let MIN = 6000;
 
 let chronometer = {
   setTime(val) {
+    console.log(val);
     this.time = val * MIN;  
   },
   start() {
