@@ -1,0 +1,7 @@
+
+> p36-hours-core@1.0.0 test /home/mmc/ghp/personal/p36-hours-core
+> jest
+
+  console.log test/chronometer.test.js:4
+    chronometer {}
+
