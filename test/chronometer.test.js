@@ -1,7 +1,6 @@
 import chronometer from '../src/chronometer';
 
 test('runs the clock! ', () => {
-  debugger;
   console.log('chronometer', chronometer);
 	chronometer.setTime(25);
 	chronometer.start(25);

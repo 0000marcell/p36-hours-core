@@ -32,11 +32,10 @@ let chronometer = {
   }
 }
 
-/* Tests 
+// Tests 
 // chronometer.setTime(2 * SEC);
 // chronometer.start(() => {
 //   console.log('stop callback!');
 // });
-*/
 
 export default chronometer;
